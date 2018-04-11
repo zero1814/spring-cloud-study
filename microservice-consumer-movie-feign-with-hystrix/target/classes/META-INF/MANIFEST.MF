@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: microservice-consumer-movie-feign-with-hystrix
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zhy
+Implementation-Vendor-Id: demo
+Build-Jdk: 1.8.0_152
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

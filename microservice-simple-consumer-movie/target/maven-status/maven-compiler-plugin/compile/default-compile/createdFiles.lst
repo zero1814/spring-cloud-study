@@ -1,0 +1,3 @@
+org\consumer\entity\User.class
+org\consumer\ConsumerMovieApplication.class
+org\consumer\controller\MovieController.class

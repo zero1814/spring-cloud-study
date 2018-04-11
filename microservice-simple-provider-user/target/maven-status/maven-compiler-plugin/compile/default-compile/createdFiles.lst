@@ -1,0 +1,4 @@
+org\provider\UserApplication.class
+org\provider\entity\User.class
+org\provider\controller\UserController.class
+org\provider\repository\UserRepository.class
