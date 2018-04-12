@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: microservice-api-gateway
+server:
+  port: 8050
+eureka:
+  instance:
+    hostname: gateway
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+zuul:
+  ignored-services: microservice-provider-user
+  routes:
+    user:
+      path: /user/**
+      service-id: microservice-provider-user

@@ -1,0 +1,14 @@
+spring:
+  application.name: microservice-hystrix-turbine
+server:
+  port: 8031
+security.basic.enabled: false
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: microservice-consumer-movie-feign-with-hystrix-stream,microservice-consumer-movie-ribbon-with-hystrix
+  clusterNameExpression: new String("default")
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/

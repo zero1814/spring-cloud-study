@@ -8,10 +8,10 @@ spring:
       server:
         git:
           # 配置git仓库的地址
-          uri: https://github.com/zero1814/spring-cloud-study/
+          uri: https://github.com/eacdy/spring-cloud-study/
           # git仓库地址下的相对地址，可以配置多个，用,分割。
           search-paths: config-repo
           # git仓库的账号
-          username: zero1814
+          username: 
           # git仓库的密码
-          password: yad1ano622
+          password: 
